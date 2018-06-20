@@ -6,7 +6,6 @@ import {HashRouter} from 'react-router-dom'
 import storeFactory from './store/index'
 import App from './components/App'
 
-import 'bootstrap/scss/bootstrap.scss'
 import 'all.scss'
 
 const store = storeFactory()
