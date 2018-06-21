@@ -1,0 +1,19 @@
+header {
+  & > h1 {
+    font-size: 24px;
+    height: 70px;
+    line-height: 70px;
+  }
+  & > nav > li > a {
+    height: 70px;
+    line-height: 70px;
+    &.active {
+      border-bottom: 4px solid #fff;
+    }
+  }
+  & > h3.loginUser {
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+  }
+}
