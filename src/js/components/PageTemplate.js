@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from './Header'
-import {withRouter} from 'react-router-dom'
 
-const PageTemplate = ({children, match}) => {
+const PageTemplate = ({children}) => {
   return (
-    <div>
-      <Header match={match}/>
+    <main>
+      <Header/>
       {children}
-    </div>
+    </main>
   )
 }
 
-export default withRouter(PageTemplate)
+export default PageTemplate
