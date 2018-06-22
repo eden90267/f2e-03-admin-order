@@ -6,10 +6,28 @@
     font-size: 24px;
   }
 
-  & > ul {
-
-    & > li {
-
+  & > ul > li {
+    border-bottom: 1px solid #EBEBEB;
+    &:nth-last-child(1) {
+      border-bottom: 0;
     }
   }
+}
+
+.home_transaction-website_item_url {
+  color: #9B9B9B;
+}
+
+.home_transaction-website_item_count {
+  font-size: 20px;
+}
+
+.home_transaction-website_item_arrow-up,
+.home_transaction-website_item_percentage-up {
+  color: #7ED321;
+}
+
+.home_transaction-website_item_arrow-down,
+.home_transaction-website_item_percentage-down {
+  color: #D0021B;
 }

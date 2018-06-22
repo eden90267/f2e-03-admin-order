@@ -31,7 +31,12 @@ class HomeActivity extends Component {
           ['TOTAL REVENUE', 7133, 7001, 5250, 7200, 5895, 6130, 7032, 6988],
           ['TOTAL COST', 6102, 5430, 1992, 4108, 5203, 5390, 6490, 4998],
           ['NET INCOME', 882, 890, 2620, 2975, 2410, 796, 850, 1987]
-        ]
+        ],
+        colors: {
+          'TOTAL REVENUE': '#7ED321',
+          'TOTAL COST': '#D0021B',
+          'NET INCOME': '#4A90E2'
+        }
       }
     })
   }
