@@ -1,0 +1,30 @@
+.home-total {
+  & > div {
+    width: 300px;
+    & > h3 {
+      font-size: 1rem;
+    }
+    & > h4 {
+      font-size: 2.25rem;
+    }
+  }
+}
+
+
+.home_total-revenue {
+  & > h4 {
+    color: #7ED321;
+  }
+}
+
+.home_total-cost {
+  & > h4 {
+    color: #D0021B;
+  }
+}
+
+.home_net-income {
+  & > h4 {
+    color: #4A90E2;
+  }
+}

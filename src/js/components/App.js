@@ -1,10 +1,8 @@
 import React from 'react'
-
-import 'components/App.scss'
 import {Route, Switch} from 'react-router-dom'
-import Home from './Home'
-import Orders from './Orders'
-import Product from './Product'
+import Home from './home/Home'
+import Orders from './orders/Orders'
+import Product from './product/Product'
 
 const App = () =>
   <Switch>

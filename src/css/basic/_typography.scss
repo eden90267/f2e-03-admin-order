@@ -1,9 +1,13 @@
-.wrapper {
-  width: 940px;
-  margin: 0 auto;
+body {
+  background-color: #F2F2F2;
 }
 
 a:hover,
 a:focus {
   text-decoration: none !important;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
 }
